@@ -14,9 +14,9 @@ ul {
 li {
     float: left;
     border-right: 1px solid #bbb;
-    position: fixed;
+    /*position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;*/
 }
 
 li:last-child {
