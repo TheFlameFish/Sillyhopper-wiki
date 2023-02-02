@@ -1,7 +1,12 @@
 body {
     background-color: rgb(0, 225, 255);
   }
-  h1 {
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
- 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
