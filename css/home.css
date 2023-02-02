@@ -9,7 +9,24 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color:lightskyblue;
 }
 li {
     float: left;
+    border-right: 1px solid #bbb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: darkblue;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 114);
 }
